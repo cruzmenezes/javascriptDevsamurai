@@ -56,6 +56,27 @@ ex. console.log(new Date());
 
 #### observação
     quando a variavel e declarada como const a mesma não pode se alterarda posteriormente e sempre uma const quem que se inicializada com um inicializador
+    
+### concatenação / interpolação
+
+let name, age
+name = "victor",
+age = 42;
+
+console.log("name", name)
+console.log("age", age)
+
+
+//concatenação antiga
+console.log(name + "tem"+ age + "anos")
+
+//interpolação
+
+console.log(`${name} tem ${age} anos` )
+
+    
+
+
 
 
 
