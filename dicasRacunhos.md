@@ -74,6 +74,24 @@ console.log(name + "tem"+ age + "anos")
 
 console.log(`${name} tem ${age} anos` )
 
+
+
+### Object
+
+const person ={
+	name: 'victor',
+	age: 41,
+	address: {
+	 street: 'cinco', 
+	 num: 361,
+	 city: 'Guarulhos',
+},
+
+}
+
+console.log(`${JSON.stringify(person)}`)
+console.log(person.name)
+
     
 
 
