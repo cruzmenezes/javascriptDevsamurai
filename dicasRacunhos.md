@@ -103,7 +103,28 @@ console.log(person.name)
             sayhello('vitor', 'santos')
             sayhello('menezes', 'silva')
 
-$$$$$$$$$
+#### Retorn
+
+function sum(n1, n2){
+    return n1 + n2
+}
+
+console.log(sun(1, 3))
+
+##### Object arguments
+
+function sum() {
+    let res = 0 
+
+    for (const n of arguments){
+        res += n
+    }
+
+    return res
+}
+
+console.log(sum())
+console.log(sum(1, 1, 3, 10))
 
 
 
