@@ -93,7 +93,15 @@ console.log(`${JSON.stringify(person)}`)
 console.log(person.name)
 
     
+#### Função
 
+            function sayhello(name, lastName) {
+                console.log('ola ${name} e ${lastName}')
+            }
+
+            sayhello('edson', 'cruz')
+            sayhello('vitor', 'santos')
+            sayhello('menezes', 'silva')
 
 
 
