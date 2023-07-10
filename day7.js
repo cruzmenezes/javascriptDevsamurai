@@ -36,3 +36,24 @@ if (numeroTrinta, stringTrinta) {
   } else {
     console.log('As variáveis numeroDez e stringDez não tem o mesmo valor')
   }
+
+  console.clear()
+
+//   FUNÇÃO
+
+function soma(num1, num2){
+   return num1 + num2
+}
+
+let resultado = soma(10, 20);
+
+console.log(resultado);
+
+
+function syhello(){
+  
+  console.log('ola vou ser o seu programador!!!')
+}
+
+syhello();
+
