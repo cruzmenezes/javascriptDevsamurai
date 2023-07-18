@@ -29,3 +29,29 @@ function name(name, lastName, age){
   }
   
   console.log(`O resultado é: ${sum3(10, 3)}`);
+
+
+
+  function sum4(){
+    let res =0;
+
+    for (const n of arguments){
+      res += n
+    }
+    return res
+  }
+
+  console.log(`O resultado da soma entre os numeros são: ${sum4(10, 2, 10, 55)}`);
+
+
+  function say (){
+    let diga =0;
+
+    for (let i of arguments){
+      diga *= i 
+    }
+    return diga  
+
+  }
+
+  console.log(say(2, 2));
